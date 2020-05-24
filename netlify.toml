@@ -3,7 +3,7 @@ command = "hugo"
 publish = "public"
 
 [context.production.environment]
-HUGO_VERSION = "0.71.0"
+HUGO_VERSION = "0.69.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -11,8 +11,8 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.71.0"
+HUGO_VERSION = "0.69.2"
 HUGO_ENV = "production"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.71.0"
+HUGO_VERSION = "0.69.2"
