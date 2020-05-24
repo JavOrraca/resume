@@ -1,2 +1,2 @@
-# resume
-Test for making clean developer-style resume
+# README
+This repository was created from the devresume Hugo theme clone to create a clean, developer-style resume.

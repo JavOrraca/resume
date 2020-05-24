@@ -1,0 +1,326 @@
+# Page settings
+
+baseURL = "/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Javier Orraca"
+    description = "Professional Resume"
+
+
+    primaryColor = "#3c444c"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Javier Orraca"
+        tagline = "Data Scientist / R Programmer"
+        avatar = "javier.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "California"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:orraca.javier@gmail.com"
+        text = "orraca.javier@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.javierorraca.com/"
+        text = "Personal Website"
+        [[params.contact.list]]
+        icon = "fab fa-soundcloud"
+        url = "https://soundcloud.com/scatterpodcast"
+        text = "Scatter Podcast"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "R Tools: RStudio Pro, R Markdown, JupyterHub, R Shiny, RStudio Connect"
+        [[params.skills.list.items]]
+        details = "R Packages: tidyverse (dplyr, stringr, lubridate, purrr, ggplot2, tidyr), recipes, caret, tidymodels (broom, parsnip, dials, tune, rsample, yardstick), H2O, odbc, data.table, ranger, glmnet, keras, TensorFlow, xaringan, plotly, leaflet, blogdown, and more"
+        [[params.skills.list.items]]
+        details = "Other Tools: SQL, MS Access, MS Excel, NetBase, SAP Business Objects, Hugo, Netlify"
+        [[params.skills.list.items]]
+        details = "Statistical programming"
+        [[params.skills.list.items]]
+        details = "R and MS Excel trainer"
+        [[params.skills.list.items]]
+        details = "Machine learning and AI"
+        [[params.skills.list.items]]
+        details = "App dev & data storytelling"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Creative problem solver"
+        [[params.skills.list.items]]
+        details = "Strategic thinker"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Business Analytics"
+        university = "University of California, Irvine"
+        dates = "2018 - 2019"
+        [[params.education.list]]
+        degree = "BSc in Management"
+        university = "Georgia Institute of Technology"
+        dates = "2002 - 2006"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Intermediate"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Cooking"
+        [[params.interests.list]]
+        name = "Travel"
+        [[params.interests.list]]
+        name = "Board games"
+        [[params.interests.list]]
+        name = "The outdoors"
+        [[params.interests.list]]
+        name = "Electronic music"
+        [[params.interests.list]]
+        name = "Reading"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Leveraging over 14 years of data analysis, financial modeling, forecasting, strategy, and project management experiences, I apply business strategy and statistical programming to develop predictive analytics, growth strategies, and data-driven insights. I am a creative problem solver driving value through advanced analytics and reproducible reporting."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Data Scientist III"
+        dates = "2019 - Present"
+        company = "Centene Corporation"
+        details = "Supporting Health Net’s Product Performance team within Commercial Operations, my team derives data-driven insights for our internal and external stakeholders. As part of the Strategic Insights team, we leverage machine learning, artificial intelligence, and interactive web apps via the R programming language for forecasting, scenario testing, simulations, and product analytics."
+        [[params.experience.list.items]]
+        details = "As co-organizer of Centene’s internal R User Group, I help to coordinate monthly learning sessions on best practices and data science modeling work flows, and keep Centene’s R users apprised of new data analysis, reporting, and visualization techniques."
+        [[params.experience.list.items]]
+        details = "Led series of R beginners trainings for over 150 analysts, data scientists, actuaries, underwriters, and business intelligence professionals."
+        [[params.experience.list.items]]
+        details = "My daily toolkit includes the following tools: R, RStudio Pro, Microsoft Excel, Shiny, H2O, SQL, GitLab, JupyterHub, RStudio Connect, Oracle, and SAP BI."
+
+        [[params.experience.list]]
+        title = "Senior Manager"
+        dates = "2015 - 2017"
+        company = "KPMG"
+        details = "As a Senior Manager in KPMG's Economic & Valuation Services (EVS) practice, I managed multi-disciplinary valuation and M&A engagement teams, led internal and external communications, designed complex fixed asset valuation models, hired and trained new and experienced professionals, and researched best practices. Leading a team of Managers, Senior Analysts, and Associates, I provided conceptual and technical guidance on data collection & exploration, data analysis, financial modeling, valuation theory, report writing, and forecasting methodologies."
+        [[params.experience.list.items]]
+        details = "Led initiatives with KPMG Advisory and Tax partners to develop new service offerings for embedded software studies, asset risk, Federal and State tax savings, fixed asset management, and cost segregation studies."
+        [[params.experience.list.items]]
+        details = "Presented and participated on panel at KPMG’s annual West Coast Energy Tax Share Forum on the topics of capital investments and embedded software studies that would result in tax savings for public and private businesses."
+
+        [[params.experience.list]]
+        title = "Supervisor, Capital Recovery & Analysis"
+        dates = "2013 - 2015"
+        company = "PG&E"
+        details = "As a supervisor in PG&E's Finance & Risk organization, I strategized with cross-functional teams to analyze, budget, forecast and maximize revenues of PG&E’s separately funded projects - 15 special projects in pipeline safety, IT, and electric distribution, exceeding annual revenues of $350 million."
+        [[params.experience.list.items]]
+        details = "Led team of Senior Analysts and Experts in collecting historical capital expenditure by LOB for PG&E’s rate base and special projects, cleaning and sanitizing data, forecasting LOB performance, and driving monthly budget-to-actual variance analyses."
+        [[params.experience.list.items]]
+        details = "Spearheaded a 12-month process improvement initiative to streamline the company’s P&L forecasting and performance tracking models, resulting in a cross-functional tool with enhanced controls and KPI dashboards."
+        [[params.experience.list.items]]
+        details = "Drafted data request responses for regulators, ratepayer advocacy groups, external auditors (Deloitte), and designed financial templates and controls to improve response turnaround time."
+        
+
+        [[params.experience.list]]
+        title = "Manager"
+        dates = "2006 - 2013"
+        company = "EY"
+        details = "As a Manager and financial modeler in EY's Valuation & Business Modeling practice, I produced valuation models and fair market value studies through Microsoft Access and Excel to support M&A transactions, purchase price allocations, goodwill impairment analyses, obsolescence studies, and restructurings. I managed scope and resources to execute over 100 valuation engagements consisting of financial data collection (typically 50K to 750k records) from disparate global data sources, data manipulation, modeling, and leading client presentations on our methodologies and findings."
+        [[params.experience.list.items]]
+        details = "Developed and distributed valuation and embedded software models for EY’s national Capital Equipment practice (i.e., Microsoft Access and Excel models) and regularly modified models as updates were made to US GAAP, IFRS, regulatory standards, BLS indices, and State / Local Tax regulations."
+        [[params.experience.list.items]]
+        details = "Developed procedure documents and training for new and experienced analysts in the U.S.A., Brazil, Canada, India, and Russia, covering the basics of MS Access (relational table design) and MS Excel (modeling best practices)."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Scatter Podcast"
+        meta = "Data Science Podcast Host"
+        tagline = "Scatter Podcast is an analytics and data science podcast that I launched in 2019 to share career tips and insights from data science leaders and practioners."
+        
+        [[params.projects.list]]
+        title = "Experian"
+        meta = "Graduate Research"
+        tagline = "As part of UC Irvine’s MS in Business Analytics Capstone Program, I was on a small team of graduate students that had the opportunity to work on a real-world research project for Experian. Our team researched machine learning algorithms to predict consumer likelihood of filing for bankruptcy. My primary contribution was the development of a neural network model built in R (Keras and TensorFlow), interpreting “black box” results, and leading presentations with Experian's Chief Data Scientist and UC Irvine faculty."
+
+        [[params.projects.list]]
+        title = "TBWA Chiat Day"
+        meta = "Data Science Research"
+        tagline = "Supporting TBWA Chiat Day’s Global Data organization, I researched consumer trends, performed behavioral and statistical analyses, collected large structured and unstructured data from social media platforms, and derived data-driven insights for the advertising agency over an eight-month period. Two of my key contributions included the following: 1) Conceptualized and built a stock price notification system as a proof of concept for the agency’s existing client using data from S&P Capital IQ and labeling triggering events for price fluctuations, and 2) Analyzed San Francisco geospatial and transportation data in R and developed interactive maps for a new product prototype being pitched to a ride-share corporation."
+
+        [[params.projects.list]]
+        title = "Orange County R Hackathon - 2019 Winner"
+        meta = "Open Source"
+        tagline = "In 24 hours, my team relied on the R programming language and Tableau to explore, analyze, and create predictive models using publicly available California water source data, health data, and census records. With over 80% accuracy, we developed a multivariate adaptive regression spline (MARS) model to predict the percentage of poor-health residents from drinking water contaminates. The variables of highest importance included chemical levels of arsenic, nitrates, and uranium in drinking tap water. The real surprise was discovering how these contaminates affect low birthweight and child poverty percentages at the county level here in California."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:orraca.javier@gmail.com"
+        title = "orraca.javier@gmail.com"
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/JavOrraca"
+        title = "GitHub"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/orraca"
+        title = "LinkedIn"
+        [[params.social.list]]
+        icon = "fas fa-globe"
+        url = "//www.javierorraca.com/"
+        title = "JavierOrraca.com"
+        [[params.social.list]]
+        icon = "fab fa-soundcloud"
+        url = "https://soundcloud.com/scatterpodcast"
+        title = "Scatter Podcast"
+        
+
+
+
+
+
