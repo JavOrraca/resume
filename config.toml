@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Javier Orraca"
-        tagline = "Data Scientist / R Programmer"
+        tagline = "Data Scientist"
         avatar = "javier.png"
 
 
@@ -61,22 +61,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "R Toolkit"
         [[params.skills.list.items]]
         details = "R Tools: RStudio Pro, R Markdown, JupyterHub, R Shiny, RStudio Connect"
         [[params.skills.list.items]]
         details = "R Packages: tidyverse (dplyr, stringr, lubridate, purrr, ggplot2, tidyr), recipes, caret, tidymodels (broom, parsnip, dials, tune, rsample, yardstick), H2O, odbc, data.table, ranger, glmnet, keras, TensorFlow, xaringan, plotly, leaflet, blogdown, and more"
+        
+        [[params.skills.list]]
+        title = "Model Deployment"
         [[params.skills.list.items]]
-        details = "Other Tools: SQL, MS Access, MS Excel, NetBase, SAP Business Objects, Hugo, Netlify"
+        details = "GitLab, Bitbucket, GitHub, RStudio Connect, AWS S3, StorageGRID"
+        
+        [[params.skills.list]]
+        title = "Other"
         [[params.skills.list.items]]
-        details = "Statistical programming"
+        details = "Other Tools: SQL, MS Access, MS Excel, NetBase, SAP Business Objects, Hugo, Netlify, Python"
         [[params.skills.list.items]]
-        details = "R and MS Excel trainer"
+        details = "Competencies: Data wrangling, statistical programming, designing and deploying interactive web reports and interactive web apps, data storytelling, influencing stakeholders"
         [[params.skills.list.items]]
-        details = "Machine learning and AI"
-        [[params.skills.list.items]]
-        details = "App dev & data storytelling"
-
+        details = "Leadership: 10+ years project management, 7+ years people management, 10+ years MS Excel / MS Access / R trainer"
+        
         [[params.skills.list]]
         title = "Professional"
         [[params.skills.list.items]]
@@ -162,8 +166,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.interests.list]]
         name = "The outdoors"
         [[params.interests.list]]
-        name = "Electronic music"
-        [[params.interests.list]]
         name = "Reading"
 
 
@@ -175,7 +177,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Leveraging over 14 years of data analysis, financial modeling, forecasting, strategy, and project management experiences, I apply business strategy and statistical programming to develop predictive analytics, growth strategies, and data-driven insights. I am a creative problem solver driving value through advanced analytics and reproducible reporting."
+        text = "Leveraging over 14 years of data analysis, forecasting, financial strategy, people and project management, I apply business strategy and statistical programming to develop predictive analytics, growth strategies, and data-driven insights. I am a creative problem solver driving value through the deployment of advanced analytics tools and reproducible reports."
 
 
 
@@ -188,32 +190,34 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Data Scientist III"
+        title = "Centene Corporation: Data Scientist III"
         dates = "2019 - Present"
-        company = "Centene Corporation"
+        company = "California"
         details = "Supporting Health Net’s Product Performance team within Commercial Operations, my team derives data-driven insights for our internal and external stakeholders. As part of the Strategic Insights team, we leverage machine learning, artificial intelligence, and interactive web apps via the R programming language for forecasting, scenario testing, simulations, and product analytics."
         [[params.experience.list.items]]
         details = "As co-organizer of Centene’s internal R User Group, I help to coordinate monthly learning sessions on best practices and data science modeling work flows, and keep Centene’s R users apprised of new data analysis, reporting, and visualization techniques."
         [[params.experience.list.items]]
         details = "Led series of R beginners trainings for over 150 analysts, data scientists, actuaries, underwriters, and business intelligence professionals."
         [[params.experience.list.items]]
-        details = "My daily toolkit includes the following tools: R, RStudio Pro, Microsoft Excel, Shiny, H2O, SQL, GitLab, JupyterHub, RStudio Connect, Oracle, and SAP BI."
+        details = "Developed and deployed (to production) interactive web apps that empower our Commercial organization with predictive analytics."
+        [[params.experience.list.items]]
+        details = "My daily toolkit includes the following tools: R, RStudio Pro, Microsoft Excel, Shiny, StorageGRID (AWS S3), H2O, SQL, GitLab, JupyterHub, RStudio Connect, Oracle, and SAP BI."
 
         [[params.experience.list]]
-        title = "Senior Manager"
+        title = "KPMG: Senior Manager"
         dates = "2015 - 2017"
-        company = "KPMG"
-        details = "As a Senior Manager in KPMG's Economic & Valuation Services (EVS) practice, I managed multi-disciplinary valuation and M&A engagement teams, led internal and external communications, designed complex fixed asset valuation models, hired and trained new and experienced professionals, and researched best practices. Leading a team of Managers, Senior Analysts, and Associates, I provided conceptual and technical guidance on data collection & exploration, data analysis, financial modeling, valuation theory, report writing, and forecasting methodologies."
+        company = "California"
+        details = "Managed multi-disciplinary valuation and M&A engagement teams, led internal and external communications, designed complex fixed asset valuation models, hired and trained new and experienced professionals, and researched best practices for KPMG's Economic & Valuation Services (EVS) practice. Leading a team of Managers, Senior Analysts, and Associates, I provided conceptual and technical guidance on data collection & exploration, data analysis, financial modeling, valuation theory, report writing, and forecasting methodologies."
         [[params.experience.list.items]]
         details = "Led initiatives with KPMG Advisory and Tax partners to develop new service offerings for embedded software studies, asset risk, Federal and State tax savings, fixed asset management, and cost segregation studies."
         [[params.experience.list.items]]
         details = "Presented and participated on panel at KPMG’s annual West Coast Energy Tax Share Forum on the topics of capital investments and embedded software studies that would result in tax savings for public and private businesses."
 
         [[params.experience.list]]
-        title = "Supervisor, Capital Recovery & Analysis"
+        title = "PG&E: Supervisor"
         dates = "2013 - 2015"
-        company = "PG&E"
-        details = "As a supervisor in PG&E's Finance & Risk organization, I strategized with cross-functional teams to analyze, budget, forecast and maximize revenues of PG&E’s separately funded projects - 15 special projects in pipeline safety, IT, and electric distribution, exceeding annual revenues of $350 million."
+        company = "California"
+        details = "As a Supervisor in the Finance & Risk organization on the Capital Recovery & Analysis team, I strategized with cross-functional teams to analyze, budget, forecast, and maximize revenues of PG&E’s separately funded projects - 15 special projects in pipeline safety, IT, and electric distribution, exceeding annual revenues of $350 million."
         [[params.experience.list.items]]
         details = "Led team of Senior Analysts and Experts in collecting historical capital expenditure by LOB for PG&E’s rate base and special projects, cleaning and sanitizing data, forecasting LOB performance, and driving monthly budget-to-actual variance analyses."
         [[params.experience.list.items]]
@@ -223,10 +227,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         
 
         [[params.experience.list]]
-        title = "Manager"
+        title = "EY: Manager"
         dates = "2006 - 2013"
-        company = "EY"
-        details = "As a Manager and financial modeler in EY's Valuation & Business Modeling practice, I produced valuation models and fair market value studies through Microsoft Access and Excel to support M&A transactions, purchase price allocations, goodwill impairment analyses, obsolescence studies, and restructurings. I managed scope and resources to execute over 100 valuation engagements consisting of financial data collection (typically 50K to 750k records) from disparate global data sources, data manipulation, modeling, and leading client presentations on our methodologies and findings."
+        company = "California"
+        details = "As a Manager and financial modeler in EY's Valuation, Modeling & Economics practice, I produced valuation models and fair market value studies through Microsoft Access and Excel to support M&A transactions, purchase price allocations, goodwill impairment analyses, obsolescence studies, and restructurings. I managed scope and resources to execute over 100 valuation engagements consisting of financial data collection (typically 50K to 750k records) from disparate global data sources, data manipulation, modeling, and leading client presentations on our methodologies and findings."
         [[params.experience.list.items]]
         details = "Developed and distributed valuation and embedded software models for EY’s national Capital Equipment practice (i.e., Microsoft Access and Excel models) and regularly modified models as updates were made to US GAAP, IFRS, regulatory standards, BLS indices, and State / Local Tax regulations."
         [[params.experience.list.items]]
