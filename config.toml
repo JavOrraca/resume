@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Javier Orraca"
-        tagline = "Data Scientist"
+        tagline = "Business Analytics & Data Scientist"
         avatar = "javier.png"
 
 
@@ -61,11 +61,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "R Toolkit"
+        title = "R Toolkit for Analysis"
         [[params.skills.list.items]]
-        details = "R Tools: RStudio Pro, R Markdown, JupyterHub, R Shiny, RStudio Connect"
+        details = "R Tools: RStudio IDE, R Markdown, Shiny, RStudio Connect, JupyterHub"
         [[params.skills.list.items]]
-        details = "R Packages: tidyverse (dplyr, stringr, lubridate, purrr, ggplot2, tidyr), recipes, caret, tidymodels (broom, parsnip, dials, tune, rsample, yardstick), H2O, odbc, data.table, ranger, glmnet, keras, TensorFlow, xaringan, plotly, leaflet, blogdown, and more"
+        details = "R Packages: tidyverse (dplyr, stringr, lubridate, purrr, ggplot2, tidyr), recipes, caret, tidymodels, H2O, odbc, DT, data.table, ranger, glmnet, xaringan, plotly, leaflet, blogdown, and more"
         
         [[params.skills.list]]
         title = "Model Deployment"
@@ -77,9 +77,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Other Tools: SQL, MS Access, MS Excel, NetBase, SAP Business Objects, Hugo, Netlify, Python"
         [[params.skills.list.items]]
-        details = "Competencies: Data wrangling, statistical programming, designing and deploying interactive web reports and interactive web apps, data storytelling, influencing stakeholders"
+        details = "Competencies: Data wrangling, statistical programming (EDA, regression, and classification problems), designing and deploying interactive web apps, data storytelling, influencing stakeholders"
         [[params.skills.list.items]]
-        details = "Leadership: 10+ years project management, 7+ years people management, 10+ years MS Excel / MS Access / R trainer"
+        details = "Leadership: 10+ years project management, 7+ years people management, 10+ training teams on MS Excel / MS Access / R"
         
         [[params.skills.list]]
         title = "Professional"
@@ -177,7 +177,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Leveraging over 14 years of data analysis, forecasting, financial strategy, people and project management, I apply business strategy and statistical programming to develop predictive analytics, growth strategies, and data-driven insights. I am a creative problem solver driving value through the deployment of advanced analytics tools and reproducible reports."
+        text = "Leveraging over 14 years of data analysis, financial forecasting, business strategy, people and project management, I apply business analytics and statistical programming to develop predictive models, growth strategies, and data-driven insights. I am a creative problem solver driving value through the deployment of interactive dashboards, robotic automation, and reproducible reporting."
 
 
 
@@ -193,15 +193,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Centene Corporation: Data Scientist III"
         dates = "2019 - Present"
         company = "California"
-        details = "Supporting Health Net’s Product Performance team within Commercial Operations, my team derives data-driven insights for our internal and external stakeholders. As part of the Strategic Insights team, we leverage machine learning, artificial intelligence, and interactive web apps via the R programming language for forecasting, scenario testing, simulations, and product analytics."
+        details = "Supporting Health Net’s Strategic Insights team within Commercial Operations, my team derives data-driven insights for our Product Performance and Sales organizations. We utilize Microsoft Excel, the R programming language, and professional RStudio tools to analyze sales data, healthcare claims, and publicly-available competitor data. We communicate impactful findings to leadership and deploy predictive tools that increase sales and improve healthcare product quality while lowering costs."
+        [[params.experience.list.items]]
+        details = "Working with Underwriters and Actuaries, the Strategic Insights team designs custom predictive algorithms and deploys (to production) R Shiny applications using statistical programming and machine learning. We experiment, test, iterate, and solve for the following problems: Multi-variate regression and classification, clustering, feature engineering, automation, and time-series forecasting."
         [[params.experience.list.items]]
         details = "As co-organizer of Centene’s internal R User Group, I help to coordinate monthly learning sessions on best practices and data science modeling work flows, and keep Centene’s R users apprised of new data analysis, reporting, and visualization techniques."
         [[params.experience.list.items]]
         details = "Led series of R beginners trainings for over 150 analysts, data scientists, actuaries, underwriters, and business intelligence professionals."
         [[params.experience.list.items]]
-        details = "Developed and deployed (to production) interactive web apps that empower our Commercial organization with predictive analytics."
-        [[params.experience.list.items]]
-        details = "My daily toolkit includes the following tools: R, RStudio Pro, Microsoft Excel, Shiny, StorageGRID (AWS S3), H2O, SQL, GitLab, JupyterHub, RStudio Connect, Oracle, and SAP BI."
+        details = "My daily toolkit includes the following tools: R, RStudio Desktop, Microsoft Excel, Shiny, GitLab, StorageGRID (AWS S3), H2O, SQL, JupyterHub, RStudio Connect, Oracle, and SAP BI."
 
         [[params.experience.list]]
         title = "KPMG: Senior Manager"
